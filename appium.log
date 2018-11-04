@@ -1,107 +1,347 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 62031
+[Appium]   port: 54894
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 62032
-[Appium]   tmpDir: /var/folders/np/zr8dfty54x18_rpjyyr6fm640000gn/T//Katalon/Appium/Temp1541311398818
-[Appium] Appium REST http interface listener started on 0.0.0.0:62031
+[Appium]   chromeDriverPort: 54895
+[Appium]   tmpDir: /var/folders/np/zr8dfty54x18_rpjyyr6fm640000gn/T//Katalon/Appium/Temp1541316482556
+[Appium] Appium REST http interface listener started on 0.0.0.0:54894
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 20 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 21 ms - 83
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 13 ms - 83
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
-[HTTP] {"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app","automationName":"XCUITest","deviceName":"iPhone 7","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"718434AE-BA37-485D-96F5-B44F8405F7D6","waitForAppScript":"true;","wdaLocalPort":62044},"capabilities":{"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app","automationName":"XCUITest","deviceName":"iPhone 7","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"718434AE-BA37-485D-96F5-B44F8405F7D6","waitForAppScript":"true;","wdaL
+[HTTP] {"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86_64 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86_64 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
 [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
-[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceName","fullReset","newCommandTimeout","noReset","platformName","realDeviceLogger","udid","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
-[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
 [Appium] Capabilities:
-[Appium]   app: /Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app
-[Appium]   automationName: XCUITest
-[Appium]   deviceName: iPhone 7
+[Appium]   app: /Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86_64 - Android 7.1.1)
 [Appium]   fullReset: false
 [Appium]   newCommandTimeout: 1800
 [Appium]   noReset: true
-[Appium]   platformName: iOS
-[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
-[Appium]   udid: 718434AE-BA37-485D-96F5-B44F8405F7D6
-[Appium]   waitForAppScript: true;
-[Appium]   wdaLocalPort: 62044
-[BaseDriver] Session created with session id: 7318da45-8146-4b67-95c0-188a10ab028e
-[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid '718434AE-BA37-485D-96F5-B44F8405F7D6'
-[XCUITest] Determining device to run tests on: udid: '718434AE-BA37-485D-96F5-B44F8405F7D6', real device: false
-[XCUITest] No platformVersion specified. Using device version: '11.0'
-[BaseDriver] Using local app '/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app'
-[XCUITest] Continuing without capturing device logs: iOS Simulator with udid 718434AE-BA37-485D-96F5-B44F8405F7D6 is not running
-[XCUITest] Setting up simulator
-[iOSSim] Booting Simulator with UDID 718434AE-BA37-485D-96F5-B44F8405F7D6...
-[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 718434AE-BA37-485D-96F5-B44F8405F7D6 -ConnectHardwareKeyboard 0
-[iOSSim] Simulator with UDID 718434AE-BA37-485D-96F5-B44F8405F7D6 booted in 23 seconds
-[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
-[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
-[XCUITest] Launching WebDriverAgent on the device
-[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[Appium] New XCUITestDriver session created successfully, session 7318da45-8146-4b67-95c0-188a10ab028e added to master session list
-[HTTP] <-- POST /wd/hub/session 200 52178 ms - 745
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: emulator-5554
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[BaseDriver] Using local app '/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Cannot sort build-tools folders ["17.0.0","18.0.1","18.1.1","19.0.0","19.0.1","19.1.0","20.0.0","21.0.0","21.0.1","21.0.2","21.1.0","21.1.1","21.1.2","22.0.0","22.0.1","23.0.0","23.0.2","25.0.0","25.0.1","25.0.2","26.0.0","26.0.0-preview","26.0.1","26.0.1_backup","26.0.2","android-4.3"] by semantic version names.
+[ADB] Falling back to sorting by modification date. Original error: Invalid Version: android-4.3
+[ADB] Found 26 'build-tools' folders under '/Users/DannyYang/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/22.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/17.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/18.1.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/19.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/19.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/19.1.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/20.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.0.2
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.1.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.1.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/21.1.2
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/18.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/22.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/23.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/23.0.2
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/25.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/25.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/25.0.2
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/26.0.0
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/26.0.0-preview
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/26.0.1
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/26.0.1_backup
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/26.0.2
+[ADB]     /Users/DannyYang/.katalon/tools/android_sdk/build-tools/android-4.3
+[ADB] Using adb from /Users/DannyYang/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using apkanalyzer from /Users/DannyYang/.katalon/tools/android_sdk/tools/bin/apkanalyzer
+[ADB] Package name: 'com.example.calc'
+[ADB] Main activity name: 'com.example.calc.MainActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/DannyYang/.katalon/tools/android_sdk/build-tools/25.0.0/apksigner
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/DannyYang/.katalon/tools/android_sdk/build-tools/22.0.0/aapt
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] No strings have been found in '/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.example.calc/com.example.calc.MainActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session b2f4f9fc-25f1-4953-9dba-a9cf730e93fc added to master session list
+[HTTP] <-- POST /wd/hub/session 200 9117 ms - 1305
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 22 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 17 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/timeouts
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/timeouts
 [HTTP] {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/timeouts 400 17 ms - 4196
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/timeouts 400 13 ms - 4196
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/source
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/source 200 446 ms - 6653
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 1324 ms - 16683
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/screenshot
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/screenshot 200 119 ms - 122930
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 178 ms - 65430
 [HTTP] 
-[Xcode] 2018-11-04 14:04:25.897 xcodebuild[17124:1431081]  iPhoneConnect: ## Unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=-402653158 "The device is passcode protected." UserInfo={NSLocalizedDescription=The device is passcode protected., com.apple.dtdevicekit.stacktrace=(
-[Xcode] 	0   DTDeviceKitBase                     0x000000010e7a4f4f DTDKCreateNSError + 113
-[Xcode] 	1   DTDeviceKitBase                     0x000000010e7a5793 DTDK_AMDErrorToNSError + 1135
-[Xcode] 	2   DTDeviceKitBase                     0x000000010e7e4b1a -[DTDKMobileDeviceToken mountDeveloperDiskImage:withError:] + 774
-[Xcode] 	3   DTDeviceKitBase                     0x000000010e7e53d0 -[DTDKMobileDeviceToken mountDeveloperDiskImageWithError:] + 479
-[Xcode] 	4   IDEiOSSupportCore                   0x000000010e6cb6bc __37-[DVTiOSDevice(Connect) hasConnected]_block_invoke_2 + 133
-[Xcode] 	5   DVTFoundation                       0x0000000103fcdb8c __DVTDispatchGroupAsync_block_invoke + 806
-[Xcode] 	6   libdispatch.dylib                   0x00007fff7221ed4f _dispatch_call_block_and_release + 12
-[Xcode] 	7   libdispatch.dylib                   0x00007fff7221fdcb _dispatch_client_callout + 8
-[Xcode] 	8   libdispatch.dylib                   0x00007fff72222650 _dispatch_continuation_pop + 547
-[Xcode] 	9   libdispatch.dylib                   0x00007fff72221c7a _dispatch_async_redirect_invoke + 718
-[Xcode] 	10  libdispatch.dylib                   0x00007fff7222dd1a _dispatch_root_queue_drain + 325
-[Xcode] 	11  libdispatch.dylib                   0x00007fff7222e4b1 _dispatch_worker_thread2 + 90
-[Xcode] 	12  libsystem_pthread.dylib             0x00007fff7245f6ee _pthread_wqthread + 619
-[Xcode] 	13  libsystem_pthread.dylib             0x00007fff7245f415 start_wqthread + 13
-[Xcode] ), NSLocalizedRecoverySuggestion=Please unlock your device and reattach. (0xE800001A)., NSLocalizedFailureReason=Please unlock your device and reattach. (0xE800001A).}) {
-[Xcode]     NSLocalizedDescription = "The device is passcode protected.";
-[Xcode]     NSLocalizedFailureReason = "Please unlock your device and reattach. (0xE800001A).";
-[Xcode]     NSLocalizedRecoverySuggestion = "Please unlock your device and reattach. (0xE800001A).";
-[Xcode]     "com.apple.dtdevicekit.stacktrace" = (
-[Xcode] 	0   DTDeviceKitBase                     0x000000010e7a4f4f DTDKCreateNSError + 113
-[Xcode] 	1   DTDeviceKitBase                     0x000000010e7a5793 DTDK_AMDErrorToNSError + 1135
-[Xcode] 	2   DTDeviceKitBase                     0x000000010e7e4b1a -[DTDKMobileDeviceToken mountDeveloperDiskImage:withError:] + 774
-[Xcode] 	3   DTDeviceKitBase                     0x000000010e7e53d0 -[DTDKMobileDeviceToken mountDeveloperDiskImageWithError:] + 479
-[Xcode] 	4   IDEiOSSupportCore                   0x000000010e6cb6bc __37-[DVTiOSDevice(Connect) hasConnected]_block_invoke_2 + 133
-[Xcode] 	5   DVTFoundation                       0x0000000103fcdb8c __DVTDispatchGroupAsync_block_invoke + 806
-[Xcode] 	6   libdispatch.dylib                   0x00007fff7221ed4f _dispatch_call_block_and_release + 12
-[Xcode] 	7   libdispatch.dylib                   0x00007fff7221fdcb _dispatch_client_callout + 8
-[Xcode] 	8   libdispatch.dylib                   0x00007fff72222650 _dispatch_continuation_pop + 547
-[Xcode] 	9   libdispatch.dylib                   0x00007fff72221c7a _dispatch_async_redirect_invoke + 718
-[Xcode] 	10  libdispatch.dylib                   0x00007fff7222dd1a _dispatch_root_queue_drain + 325
-[Xcode] 	11  libdispatch.dylib                   0x00007fff7222e4b1 _dispatch_worker_thread2 + 90
-[Xcode] 	12  libsystem_pthread.dylib             0x00007fff7245f6ee _pthread_wqthread + 619
-[Xcode] 	13  libsystem_pthread.dylib             0x00007fff7245f415 start_wqthread + 13
-[Xcode] );
-[Xcode] }
-[Xcode] 
-[HTTP] --> DELETE /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size
 [HTTP] {}
-[Appium] Removing session 7318da45-8146-4b67-95c0-188a10ab028e from our master session list
-[HTTP] <-- DELETE /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e 200 276 ms - 76
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size 200 15 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements 200 47 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 12 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 10 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/75d49ab0-9a69-4290-9a7a-2e99656195df/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/75d49ab0-9a69-4290-9a7a-2e99656195df/location 200 12 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"75d49ab0-9a69-4290-9a7a-2e99656195df","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 75d49ab0-9a69-4290-9a7a-2e99656195df
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform 200 29 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 87 ms - 16683
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 168 ms - 67056
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size 200 9 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[16]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements 200 33 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 10 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/a5c0847e-d37d-4714-899a-24c558d78e21/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/a5c0847e-d37d-4714-899a-24c558d78e21/location 200 10 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"a5c0847e-d37d-4714-899a-24c558d78e21","x":1,"y":1}}]}
+[UiAutomator2] calling get location: a5c0847e-d37d-4714-899a-24c558d78e21
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform 200 28 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 38 ms - 16684
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 141 ms - 67160
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size 200 10 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[11]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements 200 29 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 7 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/086226bb-a476-40aa-a388-f1aa763d93c1/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/086226bb-a476-40aa-a388-f1aa763d93c1/location 200 9 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"086226bb-a476-40aa-a388-f1aa763d93c1","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 086226bb-a476-40aa-a388-f1aa763d93c1
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform 200 19 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 35 ms - 16685
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 140 ms - 70284
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size 200 9 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[15]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements 200 29 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/d0cbf1f8-0564-4457-ab94-d134b643b12f/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/d0cbf1f8-0564-4457-ab94-d134b643b12f/location 200 11 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"d0cbf1f8-0564-4457-ab94-d134b643b12f","x":1,"y":1}}]}
+[UiAutomator2] calling get location: d0cbf1f8-0564-4457-ab94-d134b643b12f
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform 200 24 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 43 ms - 17063
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 166 ms - 74196
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/window/current/size 200 13 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]"}
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/elements 200 28 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 10 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 8 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 9 ms - 1305
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/578cf2ed-eca0-49b9-8d13-6fd05cfb71e6/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/element/578cf2ed-eca0-49b9-8d13-6fd05cfb71e6/location 200 11 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"578cf2ed-eca0-49b9-8d13-6fd05cfb71e6","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 578cf2ed-eca0-49b9-8d13-6fd05cfb71e6
+[HTTP] <-- POST /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/touch/perform 200 24 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId fd75880c-9e41-4c69-a73e-e7edbb8a43ac with b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/source 200 30 ms - 17063
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc/screenshot 200 147 ms - 74196
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc
+[HTTP] {}
+[Appium] Removing session b2f4f9fc-25f1-4953-9dba-a9cf730e93fc from our master session list
+[HTTP] <-- DELETE /wd/hub/session/b2f4f9fc-25f1-4953-9dba-a9cf730e93fc 200 332 ms - 76
 [HTTP] 

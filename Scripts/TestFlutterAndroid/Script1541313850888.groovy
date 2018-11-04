@@ -13,23 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app', 
+
+Mobile.startApplication('/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/app/outputs/apk/app.apk', 
     true)
 
-Mobile.tap(findTestObject('FlutterTestiOS/XCUIElementTypeButton - 7'), 0)
+Mobile.tap(findTestObject('FlutterTestAndroid/android.widget.Button0 - 7'), 0)
 
-Mobile.tap(findTestObject('FlutterTestiOS/XCUIElementTypeButton - '), 0)
+Mobile.tap(findTestObject('FlutterTestAndroid/android.widget.Button15 - '), 0)
 
-Mobile.tap(findTestObject('FlutterTestiOS/XCUIElementTypeButton - 3'), 0)
+Mobile.tap(findTestObject('FlutterTestAndroid/android.widget.Button10 - 3'), 0)
 
-Mobile.tap(findTestObject('FlutterTestiOS/XCUIElementTypeButton -  (1)'), 0)
+Mobile.tap(findTestObject('FlutterTestAndroid/android.widget.Button14 - '), 0)
 
-Mobile.verifyElementExist(findTestObject('FlutterTestiOS/Result'), 5)
-
-//Mobile.verifyElementText(findTestObject('FlutterTestiOS/Result'), '10')
-
-// TODO: 暫時無法驗證屬性
-//Mobile.verifyElementAttributeValue(findTestObject('FlutterTestiOS/Result'), 'label', 10, 5)
+Mobile.tap(findTestObject('FlutterTestAndroid/android.view.View5 - 10'), 0)
 
 Mobile.closeApplication()
 
