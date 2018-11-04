@@ -1,0 +1,107 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 62031
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 62032
+[Appium]   tmpDir: /var/folders/np/zr8dfty54x18_rpjyyr6fm640000gn/T//Katalon/Appium/Temp1541311398818
+[Appium] Appium REST http interface listener started on 0.0.0.0:62031
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 20 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app","automationName":"XCUITest","deviceName":"iPhone 7","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"718434AE-BA37-485D-96F5-B44F8405F7D6","waitForAppScript":"true;","wdaLocalPort":62044},"capabilities":{"desiredCapabilities":{"app":"/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app","automationName":"XCUITest","deviceName":"iPhone 7","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"718434AE-BA37-485D-96F5-B44F8405F7D6","waitForAppScript":"true;","wdaL
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceName","fullReset","newCommandTimeout","noReset","platformName","realDeviceLogger","udid","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app
+[Appium]   automationName: XCUITest
+[Appium]   deviceName: iPhone 7
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platformName: iOS
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   udid: 718434AE-BA37-485D-96F5-B44F8405F7D6
+[Appium]   waitForAppScript: true;
+[Appium]   wdaLocalPort: 62044
+[BaseDriver] Session created with session id: 7318da45-8146-4b67-95c0-188a10ab028e
+[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid '718434AE-BA37-485D-96F5-B44F8405F7D6'
+[XCUITest] Determining device to run tests on: udid: '718434AE-BA37-485D-96F5-B44F8405F7D6', real device: false
+[XCUITest] No platformVersion specified. Using device version: '11.0'
+[BaseDriver] Using local app '/Users/DannyYang/dev/projects/DevOps/MobileTestAPP/flutter-calculator-master/build/ios/iphonesimulator/Runner.app'
+[XCUITest] Continuing without capturing device logs: iOS Simulator with udid 718434AE-BA37-485D-96F5-B44F8405F7D6 is not running
+[XCUITest] Setting up simulator
+[iOSSim] Booting Simulator with UDID 718434AE-BA37-485D-96F5-B44F8405F7D6...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 718434AE-BA37-485D-96F5-B44F8405F7D6 -ConnectHardwareKeyboard 0
+[iOSSim] Simulator with UDID 718434AE-BA37-485D-96F5-B44F8405F7D6 booted in 23 seconds
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[Appium] New XCUITestDriver session created successfully, session 7318da45-8146-4b67-95c0-188a10ab028e added to master session list
+[HTTP] <-- POST /wd/hub/session 200 52178 ms - 745
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 22 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/timeouts 400 17 ms - 4196
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/source
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/source 200 446 ms - 6653
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e/screenshot 200 119 ms - 122930
+[HTTP] 
+[Xcode] 2018-11-04 14:04:25.897 xcodebuild[17124:1431081]  iPhoneConnect: ## Unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=-402653158 "The device is passcode protected." UserInfo={NSLocalizedDescription=The device is passcode protected., com.apple.dtdevicekit.stacktrace=(
+[Xcode] 	0   DTDeviceKitBase                     0x000000010e7a4f4f DTDKCreateNSError + 113
+[Xcode] 	1   DTDeviceKitBase                     0x000000010e7a5793 DTDK_AMDErrorToNSError + 1135
+[Xcode] 	2   DTDeviceKitBase                     0x000000010e7e4b1a -[DTDKMobileDeviceToken mountDeveloperDiskImage:withError:] + 774
+[Xcode] 	3   DTDeviceKitBase                     0x000000010e7e53d0 -[DTDKMobileDeviceToken mountDeveloperDiskImageWithError:] + 479
+[Xcode] 	4   IDEiOSSupportCore                   0x000000010e6cb6bc __37-[DVTiOSDevice(Connect) hasConnected]_block_invoke_2 + 133
+[Xcode] 	5   DVTFoundation                       0x0000000103fcdb8c __DVTDispatchGroupAsync_block_invoke + 806
+[Xcode] 	6   libdispatch.dylib                   0x00007fff7221ed4f _dispatch_call_block_and_release + 12
+[Xcode] 	7   libdispatch.dylib                   0x00007fff7221fdcb _dispatch_client_callout + 8
+[Xcode] 	8   libdispatch.dylib                   0x00007fff72222650 _dispatch_continuation_pop + 547
+[Xcode] 	9   libdispatch.dylib                   0x00007fff72221c7a _dispatch_async_redirect_invoke + 718
+[Xcode] 	10  libdispatch.dylib                   0x00007fff7222dd1a _dispatch_root_queue_drain + 325
+[Xcode] 	11  libdispatch.dylib                   0x00007fff7222e4b1 _dispatch_worker_thread2 + 90
+[Xcode] 	12  libsystem_pthread.dylib             0x00007fff7245f6ee _pthread_wqthread + 619
+[Xcode] 	13  libsystem_pthread.dylib             0x00007fff7245f415 start_wqthread + 13
+[Xcode] ), NSLocalizedRecoverySuggestion=Please unlock your device and reattach. (0xE800001A)., NSLocalizedFailureReason=Please unlock your device and reattach. (0xE800001A).}) {
+[Xcode]     NSLocalizedDescription = "The device is passcode protected.";
+[Xcode]     NSLocalizedFailureReason = "Please unlock your device and reattach. (0xE800001A).";
+[Xcode]     NSLocalizedRecoverySuggestion = "Please unlock your device and reattach. (0xE800001A).";
+[Xcode]     "com.apple.dtdevicekit.stacktrace" = (
+[Xcode] 	0   DTDeviceKitBase                     0x000000010e7a4f4f DTDKCreateNSError + 113
+[Xcode] 	1   DTDeviceKitBase                     0x000000010e7a5793 DTDK_AMDErrorToNSError + 1135
+[Xcode] 	2   DTDeviceKitBase                     0x000000010e7e4b1a -[DTDKMobileDeviceToken mountDeveloperDiskImage:withError:] + 774
+[Xcode] 	3   DTDeviceKitBase                     0x000000010e7e53d0 -[DTDKMobileDeviceToken mountDeveloperDiskImageWithError:] + 479
+[Xcode] 	4   IDEiOSSupportCore                   0x000000010e6cb6bc __37-[DVTiOSDevice(Connect) hasConnected]_block_invoke_2 + 133
+[Xcode] 	5   DVTFoundation                       0x0000000103fcdb8c __DVTDispatchGroupAsync_block_invoke + 806
+[Xcode] 	6   libdispatch.dylib                   0x00007fff7221ed4f _dispatch_call_block_and_release + 12
+[Xcode] 	7   libdispatch.dylib                   0x00007fff7221fdcb _dispatch_client_callout + 8
+[Xcode] 	8   libdispatch.dylib                   0x00007fff72222650 _dispatch_continuation_pop + 547
+[Xcode] 	9   libdispatch.dylib                   0x00007fff72221c7a _dispatch_async_redirect_invoke + 718
+[Xcode] 	10  libdispatch.dylib                   0x00007fff7222dd1a _dispatch_root_queue_drain + 325
+[Xcode] 	11  libdispatch.dylib                   0x00007fff7222e4b1 _dispatch_worker_thread2 + 90
+[Xcode] 	12  libsystem_pthread.dylib             0x00007fff7245f6ee _pthread_wqthread + 619
+[Xcode] 	13  libsystem_pthread.dylib             0x00007fff7245f415 start_wqthread + 13
+[Xcode] );
+[Xcode] }
+[Xcode] 
+[HTTP] --> DELETE /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e
+[HTTP] {}
+[Appium] Removing session 7318da45-8146-4b67-95c0-188a10ab028e from our master session list
+[HTTP] <-- DELETE /wd/hub/session/7318da45-8146-4b67-95c0-188a10ab028e 200 276 ms - 76
+[HTTP] 
